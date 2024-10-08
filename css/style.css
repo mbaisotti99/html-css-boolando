@@ -75,6 +75,8 @@ main .container{
 
 .testo-card{
     bottom: 0px;
+    position: relative;
+    bottom: -520px;
 }
 
 .discount{
@@ -82,7 +84,7 @@ main .container{
     color: white;
     padding: .2em;
     position: absolute;
-    bottom: 80px;
+    bottom: 110px;
     left: 10px;
     z-index: 3;
 }
@@ -92,7 +94,7 @@ main .container{
     background-color: green;
     color: white;
     padding: .2em;
-    bottom: 80px;
+    bottom: 110px;
     left: 60px;
     z-index: 3;
 }
