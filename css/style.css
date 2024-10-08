@@ -92,12 +92,24 @@ main .container{
     width: calc(95%/3);
     position: relative;
     height: 600px;
+    
 }
 
 .testo-card{
     bottom: 0px;
     position: relative;
     bottom: -520px;
+    font-family: sans-serif;
+    padding: 8px 0;
+}
+
+.price{
+    color: red;
+}
+
+.price-old{
+    color: gray;
+    text-decoration: line-through;
 }
 
 .discount{
