@@ -1,0 +1,33 @@
+
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* COMMON */
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.flex-cont{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* COLORS */
+:root{
+    --head-orange:rgb(255 105 0);
+    --foot-black:rgb(26 26 26);
+}
